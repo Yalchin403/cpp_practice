@@ -115,3 +115,59 @@ using namespace std;
 
 //     }
 // }
+
+
+// int main(){
+//     int num;
+//     cout << "Please enter the num: ";
+//     cin >> num;
+
+//     for (int i = 1; i <= 10; i++){
+
+//         int result = i * num;
+
+//         cout << i << " * " << num << " = " << result << '\n';
+
+//     }
+// }
+
+// int main(){
+
+//     int num1, num2;
+//     cout << "Please enter smaller number: ";
+//     cin >> num1;
+//     cout << "Please enter greater number: ";
+//     cin >> num2;
+//     if (num1 >= num2){
+//         cout << "Oops.. Wrong entry, be carefull about inputs!";
+//     }
+
+//     else{
+        
+//         for (int i = num1; i <= num2; i++){
+
+//             cout << i << " ";
+//         }
+//     }
+// }
+
+// int main(){
+//     int num1, num2;
+//         cout << "Please enter smaller number: ";
+//         cin >> num1;
+//         cout << "Please enter greater number: ";
+//         cin >> num2;
+//         if (num1 <= num2){
+//             for (int i = num1; i <= num2; i++){
+
+//                 cout << i << " ";
+//             }
+//         }
+
+//         else{
+            
+//             for (int i = num1; i >= num2; i--){
+//                 cout << i << " ";
+//             }
+//         }
+// }
