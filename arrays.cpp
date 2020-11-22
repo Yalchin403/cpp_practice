@@ -78,23 +78,23 @@ using namespace std;
 //     }
 // }
 
-int main(){
+// int main(){
 
-    int arr[6]; //= 2, 34, 67, 892, 0, 31;
+//     int arr[6]; //= 2, 34, 67, 892, 0, 31;
 
-    for (int i = 0; i < 6; i ++){
+//     for (int i = 0; i < 6; i ++){
 
-        cout << "Please enter number: ";
-        cin >> arr[i];
-    }
+//         cout << "Please enter number: ";
+//         cin >> arr[i];
+//     }
 
-    int max = arr[0];
+//     int max = arr[0];
 
-    for (int k = 0; k < 6; k ++){
+//     for (int k = 0; k < 6; k ++){
 
-        if (max < arr[k]){
-            max = arr[k];
-        }
-    }
-    cout << "Max number in the provided array is " << max;
-}
+//         if (max < arr[k]){
+//             max = arr[k];
+//         }
+//     }
+//     cout << "Max number in the provided array is " << max;
+// }
