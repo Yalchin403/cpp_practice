@@ -98,3 +98,109 @@ using namespace std;
 //     }
 //     cout << "Max number in the provided array is " << max;
 // }
+
+// int main(){
+//     int arr[5];
+//     for(int i = 0; i < 5; i++){
+//         cout << "Please enter the number: ";
+//         cin >> arr[i];
+//     }
+
+//     int max = arr[0];
+//     int max_index = 0;
+//     for(int i = 0; i < 5; i++){
+
+//         if( arr[i] > max){
+
+//             max = arr[i];
+//             max_index = i; 
+//         }
+//     }
+//     cout << "Maximum number in the provided array is " << max << " and its index is " << max_index;
+// }
+
+// int main(){
+
+//     int arr[5];
+//     for (int i = 0; i < 5; i++){
+
+//         cout << "Please enter the number: ";
+//         cin >> arr[i];
+//     }
+//     int max =arr[0];
+//     int max_index;
+//     for (int i = 0; i < 5; i ++){
+//         if (arr[i] > max){
+
+//             max = arr[i];
+//             max_index = i;
+//         }
+        
+//     }
+
+//     if(max_index != 4){
+
+//             int copy;
+//             copy = arr[4];
+//             arr[4] = max;
+//             arr[max_index] = copy;
+//         }
+
+//     for (int i = 0; i < 5; i++){
+
+//         cout << arr[i] << " ";
+
+//     }
+// }
+
+
+// int main(){
+
+//     int arr[5];
+//     for (int i = 0; i < 5; i++){
+//         cout << "Please enter a number: ";
+//         cin >> arr[i];
+//     }
+
+//     for(int i = 0; i < 5; i ++){
+
+//         for(int k = 0; k < 5; k++){
+
+//             if (arr[i] < arr[k]){
+//                 int copy;
+//                 copy = arr[i];
+//                 arr[i] = arr[k];
+//                 arr[k] = copy;
+//             }
+//         }
+//     }
+
+//     for(int i = 0; i < 5; i++){
+
+//         cout << arr[i] << " ";
+//     }
+// }
+
+// int main(){
+//     int arr[2][3];
+//     int max = arr[0][0];
+//     for (int i = 0; i < 2; i++){
+
+//         for (int j = 0; j < 3; j++){
+//             cout << "Please enter a number: ";
+//             cin >> arr[i][j];
+//         }
+//     }
+
+//     for (int i = 0; i < 2; i++){
+
+//         for (int j = 0; j < 3; j++){
+//             if (arr[i][j] > max){
+//                 max = arr[i][j];
+//             }
+
+//         }
+//     }
+
+//     cout << max;        
+// }
