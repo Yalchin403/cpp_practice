@@ -121,36 +121,36 @@ using namespace std;
 
 // int main(){
 
-//     int arr[5];
-//     for (int i = 0; i < 5; i++){
+    // int arr[5];
+    // for (int i = 0; i < 5; i++){
 
-//         cout << "Please enter the number: ";
-//         cin >> arr[i];
-//     }
-//     int max =arr[0];
-//     int max_index;
-//     for (int i = 0; i < 5; i ++){
-//         if (arr[i] > max){
+    //     cout << "Please enter the number: ";
+    //     cin >> arr[i];
+    // }
+    // int max =arr[0];
+    // int max_index;
+    // for (int i = 0; i < 5; i ++){
+    //     if (arr[i] > max){
 
-//             max = arr[i];
-//             max_index = i;
-//         }
+    //         max = arr[i];
+    //         max_index = i;
+    //     }
         
-//     }
+    // }
 
-//     if(max_index != 4){
+    // if(max_index != 4){
 
-//             int copy;
-//             copy = arr[4];
-//             arr[4] = max;
-//             arr[max_index] = copy;
-//         }
+    //         int copy;
+    //         copy = arr[4];
+    //         arr[4] = max;
+    //         arr[max_index] = copy;
+    //     }
 
-//     for (int i = 0; i < 5; i++){
+    // for (int i = 0; i < 5; i++){
 
-//         cout << arr[i] << " ";
+    //     cout << arr[i] << " ";
 
-//     }
+    // }
 // }
 
 
@@ -204,3 +204,119 @@ using namespace std;
 
 //     cout << max;        
 // }
+
+
+
+
+//    *******       Exercises        *********
+
+
+// int main(){
+
+//    int arr[10], count = 0;
+
+//    for ( int i = 0; i < 10; i++){
+//        cout << "Please enter an integer: ";
+//        cin >> arr[i];
+//    }
+//    for ( int i = 0; i < 10; i++){
+//        if ( arr[i] > 10){
+//            count++;
+//        }
+//    }
+//    cout << "Here are " << count << " numbers in the array that are greater than ten.";
+
+// }
+
+
+// int main(){
+//     int x, arr[10], flag = 0;
+//     cout << "Please enter x: ";
+//     cin >> x;
+//     for (int i = 0; i < 10; i++){
+//         cout << "Please enter an integer: ";
+//         cin >> arr[i];
+//     }
+//     for (int i = 0; i < 10; i++){
+//         if (arr[i] == x){
+//             flag = 1;
+//         }
+//     }
+//     if (flag == 1){
+//         cout << "Yes, x is in the array that you've provided.";
+//     }
+//     else
+//     {
+//         cout << "No, x is not in the array that you've provided.";
+//     }
+    
+// }
+
+
+// int main(){
+//     int arr[10];
+//     for(int i = 0; i < 10; i++){
+//         cout << "Please enter the number: ";
+//         cin >> arr[i];
+//     }
+
+//     int max = arr[0];
+//     int max_index = 0;
+//     for(int i = 0; i < 10; i++){
+
+//         if( arr[i] > max){
+
+//             max = arr[i];
+//             max_index = i; 
+//         }
+//     }
+//     cout << "Maximum number in the provided array is " << max << " and its index is " << max_index;
+// }
+
+// int main(){
+
+//     int arr[5], x, arr1[5], count = 0, flag = 0, index = 0;
+
+//     cout << "Please enter x: ";
+//     cin >> x;
+
+//     for (int i = 0; i < 5; i++){
+
+//         cout << "Please enter an integer: ";
+//         cin >> arr[i];
+//     }
+
+//     for (int i = 0; i < 5; i++){
+//         if ( x == arr[i]){
+//             flag = 1;
+//             break;
+//         }
+//     }
+
+//     if( flag == 1){
+
+//         for (int i = 0; i < 5; i++){
+//                 if (arr[i] != x){
+//                     arr1[index] = arr[i];
+//                     index++;
+
+//                 }
+//                 else{
+//                     count++;
+//                 }
+//         }
+//         for (int i = 5 - count; i < 5; i++){
+
+//             arr1[i] = 0;
+//         }
+//     }
+//     else{
+//         cout << "X is not in the array that you've provided";
+//     }
+
+//     for (int i = 0; i < 5; i++){
+//         cout << arr1[i] << " ";
+//     }
+    
+// }
+
