@@ -412,49 +412,94 @@ using namespace std;
 
 // }
 
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-int main() {
-   int a[10][10], transpose[10][10], row, column, i, j;
+// int main() {
+//    int a[10][10], transpose[10][10], row, column, i, j;
 
-   cout << "Enter rows and columns of matrix: ";
-   cin >> row >> column;
+//    cout << "Enter rows and columns of matrix: ";
+//    cin >> row >> column;
 
-   cout << "\nEnter elements of matrix: " << endl;
+//    cout << "\nEnter elements of matrix: " << endl;
 
-   // Storing matrix elements
-   for (int i = 0; i < row; ++i) {
-      for (int j = 0; j < column; ++j) {
-         cout << "Enter element a" << i + 1 << j + 1 << ": ";
-         cin >> a[i][j];
-      }
-   }
+//    // Storing matrix elements
+//    for (int i = 0; i < row; ++i) {
+//       for (int j = 0; j < column; ++j) {
+//          cout << "Enter element a" << i + 1 << j + 1 << ": ";
+//          cin >> a[i][j];
+//       }
+//    }
 
-   // Printing the a matrix
-   cout << "\nEntered Matrix: " << endl;
-   for (int i = 0; i < row; ++i) {
-      for (int j = 0; j < column; ++j) {
-         cout << " " << a[i][j];
-         if (j == column - 1)
-            cout << endl << endl;
-      }
-   }
+//    // Printing the a matrix
+//    cout << "\nEntered Matrix: " << endl;
+//    for (int i = 0; i < row; ++i) {
+//       for (int j = 0; j < column; ++j) {
+//          cout << " " << a[i][j];
+//          if (j == column - 1)
+//             cout << endl << endl;
+//       }
+//    }
 
-   // Computing transpose of the matrix
-   for (int i = 0; i < row; ++i)
-      for (int j = 0; j < column; ++j) {
-         transpose[j][i] = a[i][j];
-      }
+//    // Computing transpose of the matrix
+//    for (int i = 0; i < row; ++i)
+//       for (int j = 0; j < column; ++j) {
+//          transpose[j][i] = a[i][j];
+//       }
 
-   // Printing the transpose
-   cout << "\nTranspose of Matrix: " << endl;
-   for (int i = 0; i < column; ++i)
-      for (int j = 0; j < row; ++j) {
-         cout << " " << transpose[i][j];
-         if (j == row - 1)
-            cout << endl << endl;
-      }
+//    // Printing the transpose
+//    cout << "\nTranspose of Matrix: " << endl;
+//    for (int i = 0; i < column; ++i)
+//       for (int j = 0; j < row; ++j) {
+//          cout << " " << transpose[i][j];
+//          if (j == row - 1)
+//             cout << endl << endl;
+//       }
 
-   return 0;
-}
+//    return 0;
+// }
+
+
+// **** switch elements of an array n times ****
+
+// int main(){
+//     int arr[5], n, copy[5], mem;
+//     for (int i = 0; i < 5; i ++){
+//         cout << "Please enter an integer: ";
+//         cin >> arr[i];
+//     }
+//     cout << "Please enter how much you want to switch: ";
+//     cin >> n;
+
+//     for (int i = 0; i < 5; i ++){
+//         copy[i] = arr[(n + i)];
+//         if ( (n+i) == 4){
+//             mem = i + 1;
+//             break;
+//         }
+//     }
+
+//     for (int i = 0; i < n; i ++){
+//         copy[mem] = arr[i];
+//         mem++;
+//     }
+//     for (int i = 0; i < 5; i ++){
+//         cout << copy[i] << " ";
+//     }
+// }
+
+
+// int main(){
+//     int arr[5], x;
+//     cout << "Please enter x: ";
+//     cin >> x;
+//     for (int i = 0; i < 5; i++){
+//         cout << "Please enter an integer: ";
+//         cin >> arr[i];
+//     }
+//     for (int i = 0; i < 5; i++){
+//         if (x == arr[i]){
+//             cout << i << " ";
+//         }
+//     }
+// }
