@@ -320,3 +320,52 @@ using namespace std;
     
 // }
 
+// int main(){
+
+//     int c[20], b[10], d[10];
+//     for (int i = 0; i < 10; i ++){
+//         cout << "Please enter an integer for b[" << i << "]";
+//         cin >> b[i];
+
+//     }
+//     for (int i = 0; i < 10; i ++){
+//         cout << "Please enter an integer for d[" << i << "]";
+//         cin >> d[i];
+
+//     }
+
+//     for (int i = 0; i < 20; i++){
+
+//         if (i < 10){
+
+//             c[i] = b[i];
+//         }
+//         else{
+
+//             c[i] = d[i - 10];
+//         }
+//     }
+//     for (int i = 0; i < 20; i ++){
+//         cout << c[i] << " ";
+//     }
+// }
+
+// int main(){
+//     int arr[5][5];
+//     for (int i = 0; i < 5; i ++){
+
+//         for (int k = 0; k < 5; k ++){
+//             cout << "Please enter an integer for arr[" << i << "][" << k <<"]";
+//             cin >> arr[i][k]; 
+//         }
+//     }
+
+//     for (int i = 0; i < 5; i ++){
+
+//         for (int k = 0; k < 5; k ++){
+//             arr[i][k] ++;
+//             cout << arr[i][k] << " "; 
+//         }
+//     }
+// }
+
