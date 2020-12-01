@@ -369,3 +369,45 @@ using namespace std;
 //     }
 // }
 
+
+//  transform [7][6] => [14][3]
+// int main(){
+//     int arr[7][6], arr1[14][3], count, index = 0;
+//     for (int i = 0; i < 7; i++){
+//         for(int k = 0; k < 6; k++){
+//             cout << "Please enter an integer for arr[" << i << "][" << k << "]: ";
+//             cin >> arr[i][k];
+//         }
+//     }
+//     for (int i = 0; i < 7; i++){
+//             for(int k = 0; k < 6; k++){
+//                 cout << arr[i][k] << " ";
+//             }
+//             cout << "\n";
+//         }
+
+
+//     for (int i = 0; i < 14; i++){
+
+//         if (i % 2 == 0 and i != 0){
+//             index ++;
+//         }
+//         for(int k = 0; k < 3; k++){
+//             if (i % 2 != 0){
+//                 arr1[i][k] = arr[index][k+3];
+//             }
+//             else{
+//                 arr1[i][k] = arr[index][k];
+//             }
+            
+//         }
+//     }
+
+//     for (int i = 0; i < 14; i++){
+//             for(int k = 0; k < 3; k++){
+//                 cout << arr1[i][k];
+//             }
+//             cout << "\n";
+//         }
+
+// }
