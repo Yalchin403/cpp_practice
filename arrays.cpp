@@ -503,3 +503,69 @@ using namespace std;
 //         }
 //     }
 // }
+
+// int main(){
+//     int arr[5], x, copy, arr1[5], index = 0, replace = 4;
+//     cout << "Please enter value for x: ";
+//     cin >> x;
+//     for (int i = 0; i < 5; i++){
+//         cout << "Please enter an integer: ";
+//         cin >> arr[i];
+//     }
+
+//     for (int i = 0; i < 5; i++){
+//         if (arr[i]==x){
+//             arr1[index] = i;
+//             index ++;
+//         }
+//     }
+
+
+//     for (int i = 0; i < index; i++){
+//         copy = arr[replace];
+//         arr[replace] = arr[arr1[i]];
+//         arr[arr1[i]] = copy;
+//         replace = replace - 1;
+//     }
+
+//     for ( int i = 0; i < 5; i++){
+//         cout << arr[i] << " ";
+//     }
+
+//     }
+
+// int main(){
+//     int arr[5][4], memo[4];
+//     for (int i = 0; i < 5; i++){
+//         for (int k = 0; k < 4; k ++){
+//             cout << "Please enter an integer: ";
+//             cin >> arr[i][k];
+//         }
+//     }
+//     cout << "Original Array:\n";
+//     for (int i = 0; i < 5; i++){
+//         for (int k = 0; k < 4; k ++){
+//             cout << arr[i][k] << ' ';
+//         }
+//         cout << "\n";
+//     }
+
+//     for (int i = 0; i < 5; i++){
+//         for (int k = 0; k < 4; k ++){
+//             if (i == 1){
+//                 memo[k] = arr[i][k];
+//                 arr[i][k] = arr[3][k];
+//                 arr[3][k] = memo[k];
+//             }
+//         }
+//     }
+
+
+//     cout << "Modified Array:\n";
+//     for (int i = 0; i < 5; i++){
+//         for (int k = 0; k < 4; k ++){
+//             cout << arr[i][k] << ' ';
+//         }
+//         cout << "\n";
+//     }
+// }
