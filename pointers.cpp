@@ -122,3 +122,75 @@ using namespace std;
 //     y = x;
 //     cout << &x[0] << "\t" << y;
 // }
+
+// int main(){
+//     int i, x[5], *y;
+//     for (i = 0; i < 5; i++){
+//         cout << "Please enter an integer: ";
+//         cin >> x[i];
+//     }
+//     y = x;
+    
+//     for (i = 0; i < 5; i++){
+//         cout << "Address is " << (y + i) << " and value is " << *(y + i) << "\n";
+//     }
+// }
+
+
+// int main(){
+
+//     int x[5], *y, i;
+//      y = x;
+
+//      for (i = 0; i <5; i++){
+//          cout << "Please enter an integer: ";
+//          cin >> *(y+i);
+//      }
+//      for (i = 0; i <5; i++){
+//          cout << *(y+i) << "\t";
+//      }
+// }
+
+// int main(){
+
+//     int x[5], *y, i;
+//     for (i = 0; i <5; i++){
+//         cout << "Please enter an integer: ";
+//         cin >> x[i];
+//     }
+//     for (i = 0; i <5; i++){
+//         cout << &x[i] << "\t";
+//     }
+//     y = x;
+//     y++;
+//     cout << "\n" << *y;
+//     y++;
+//     cout << "\n" << y << "\t" << *y << "\t" << &x[2] << "\t" << x[2] << "\n";
+
+//     if (&x[2] == y && *y == x[2])
+//         cout << "Addresses and values are identical";
+//     else
+//         cout << "Addresses and values are not identical";
+
+// }
+
+int main(){
+    int x[5], i, *y;
+    for (i = 0; i <5; i++){
+        cout << "Please enter an integer: ";
+        cin >> x[i];
+    }
+     for (i = 0; i <5; i++){
+        cout << &x[i] << "\t" << x[i] << "\n";
+    }
+    y= x;
+    y += 3;
+    cout << "\n" << y << "\t" << *y;
+    y -= 2;
+    cout << "\n" << y << "\t" << *y << "\n";
+
+    if (&x[1] == y && *y == x[1])
+        cout << "Addresses and values are identical";
+    else
+        cout << "Addresses and values are not identical";
+}
